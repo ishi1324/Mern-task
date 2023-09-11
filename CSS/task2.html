@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 2</title>
+    <style>
+        .vertical-menu {
+            width: 200px;
+        }
+
+        .vertical-menu a {
+            background-color: #ADD9E6;
+            color: #000BC3;
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+        }
+
+        .vertical-menu a:hover {
+            background-color: #ccc;
+        }
+
+        .vertical-menu a.active {
+            background-color: #FDA501;
+            color: white;
+        }
+
+        .horizontal-menu {
+            background-color: #CECECE;
+            overflow: auto;
+            white-space: nowrap;
+            width: 500px;
+        }
+
+        .horizontal-menu a {
+            display: inline-block;
+            color: #000BC3;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+            border-right: 1px solid #000BC3;
+        }
+
+        .horizontal-menu a:hover {
+            background-color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="vertical-menu">
+        <a href="#" class="active">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+    </div>
+    <br>
+    <div class="horizontal-menu">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+    </div>
+</body>
+
+</html>
